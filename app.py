@@ -16,8 +16,6 @@ SHEET_LINK = "https://docs.google.com/spreadsheets/d/1W7tGtN3weAsBQ9fmT42Swjte1S
 st.set_page_config(page_title="BrightChamps Task - By Priyanshu", page_icon="🚀", layout="centered")
 
 st.title("🚀 Founder's Office: BrightChamps")
-st.markdown("Automation Workflow")
-
 st.divider()
 
 st.subheader("Step 1: Stage the Google Sheets CRM")
