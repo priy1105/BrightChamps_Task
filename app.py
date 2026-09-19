@@ -4,7 +4,7 @@ import time
 
 # --- CONFIGURATION ---
 # 1. Your n8n Production Webhook URL
-WEBHOOK_URL = "https://priyanshu-agents.app.n8n.cloud/webhook/deploy-latency-bridge"
+WEBHOOK_URL = "https://priyanshu-agents.app.n8n.cloud/webhook-test/deploy-latency-bridge"
 
 # 2. Your Google Sheet ID (the long string in the URL)
 SHEET_ID = "1W7tGtN3weAsBQ9fmT42Swjte1SNXlPT8xw_FP0fIx3g" 
