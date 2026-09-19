@@ -15,20 +15,20 @@ SHEET_LINK = "https://docs.google.com/spreadsheets/d/1W7tGtN3weAsBQ9fmT42Swjte1S
 
 st.set_page_config(page_title="BrightChamps Task - By Priyanshu", page_icon="🚀", layout="centered")
 
-st.title("🚀 Founder's Office: Latency Bridge")
-st.markdown("Dispatch the multi-modal retention sequence for late-stage scheduled demos.")
+st.title("🚀 Founder's Office: BrightChamps")
+st.markdown("Automation Workflow")
 
 st.divider()
 
-st.subheader("Step 1: Stage the CRM")
-st.markdown(f"Open the **[Live CRM Database]({SHEET_LINK})** and add your test lead to the bottom row. Set the `demo_scheduled_at` to a future time.")
+st.subheader("Step 1: Stage the Google Sheets CRM")
+st.markdown(f"Open the **[Live Google Sheets]({SHEET_LINK})** (linked to n8n) and add your 4-5 test leads to the bottom row. Set the `demo_scheduled_at` to a future time.")
 
 st.write("") 
 
-st.subheader("Step 2: Dispatch the Engine")
-st.markdown("Clicking below triggers the n8n webhook, scans the sheet, locks your row, and executes the latency drip.")
+st.subheader("Step 2: Dispatch the Workflow")
+st.markdown("Clicking below triggers the n8n webhook, scans the sheet, and executes the process.")
 
-if st.button("⚡ Deploy Latency Engine", type="primary", use_container_width=True):
+if st.button("⚡ Start the n8n Engine", type="primary", use_container_width=True):
     with st.status("Initiating API handshake...", expanded=True) as status:
         time.sleep(1) 
         
