@@ -16,8 +16,7 @@ SHEET_LINK = "https://docs.google.com/spreadsheets/d/1W7tGtN3weAsBQ9fmT42Swjte1S
 st.set_page_config(page_title="BrightChamps Task - By Priyanshu", page_icon="🚀", layout="centered")
 
 st.subheader("🚀 Founder's Office Assignment: BrightChamps")
-st.subheader("Priyanshu - B.Tech., NITK Surathkal")
-
+st.markdown("Priyanshu - B.Tech., NITK Surathkal")
 st.divider()
 st.subheader("Step 1: Stage the Google Sheets CRM")
 st.markdown(f"Open the **[Live Google Sheets]({SHEET_LINK})** (linked to n8n) and add your 4-5 test leads to the bottom row. Set the `demo_scheduled_at` to a future time.")
